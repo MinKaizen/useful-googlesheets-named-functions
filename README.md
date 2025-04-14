@@ -6,16 +6,16 @@
 
 It's basically `MATCH`, but instead of matching the first ocurrence, it matches the LAST ocurrence. Useful when you you have transactional data and you want the most up-to-date value.
 
-## Arguments
+### Arguments
 1. search_value
 2. range
 
-## Definition
+### Definition
 ```
 =MATCH(2, 1/(range=search_value), 1)
 ```
 
-## Usage
+### Usage
 Use it like you would an index/match statement. Let's say you have a table like this:
 ```
 Username | Score
